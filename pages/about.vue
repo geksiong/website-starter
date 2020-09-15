@@ -1,0 +1,11 @@
+<template>
+  <div class="container">
+    <h1>About Us</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consequuntur
+      magni nesciunt qui minima perspiciatis autem! Doloribus sequi hic odit,
+      illum, magnam minima officiis dignissimos tenetur necessitatibus
+      laboriosam maiores optio.
+    </p>
+  </div>
+</template>

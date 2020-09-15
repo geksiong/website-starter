@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="mainContainer">
     <div>
       <Logo />
       <h1 class="title">website-starter</h1>
@@ -21,6 +21,12 @@
           GitHub
         </a>
       </div>
+      <div>
+        <nuxt-link to="/about" class="button--grey">About Us</nuxt-link>
+        <nuxt-link to="/blog" class="button--grey">Blog</nuxt-link>
+        <nuxt-link to="/page01" class="button--grey">Page 1</nuxt-link>
+        <nuxt-link to="/page02" class="button--grey">Page 2</nuxt-link>
+      </div>
     </div>
   </div>
 </template>
@@ -37,7 +43,7 @@ export default Vue.extend({})
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
+.mainContainer {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -45,7 +51,6 @@ export default Vue.extend({})
   align-items: center;
   text-align: center;
 }
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
