@@ -7,7 +7,19 @@ date: 2020-01-01
 
 Lorem ipsum blah blah blah
 
-```js
+
+- list
+  - item
+  - item
+- list
+  - item
+  - item
+
+## Some code
+
+`single-line code in backticks`
+
+```js[server.js]
 const http = require('http')
 const bodyParser = require('body-parser')
 
@@ -18,4 +30,4 @@ http.createServer((req, res) => {
 }).listen(3000)
 ```
 
-## Go to [About](/about)
+Go to [About](/about)

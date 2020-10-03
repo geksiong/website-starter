@@ -1,13 +1,23 @@
 <template>
   <div class="container">
-    <nuxt-content :document="doc" />
-    <hr />
-    <h5 v-if="prev">
-      &lt; <nuxt-link :to="prev.slug">{{ prev.title }}</nuxt-link>
-    </h5>
-    <h5 v-if="next">
-      <nuxt-link :to="next.slug">{{ next.title }}</nuxt-link> &gt;
-    </h5>
+    <article class="prose">
+      <h1>{{ doc.title }}</h1>
+      <p>
+        <i>{{ doc.date }}</i>
+      </p>
+      <nuxt-content :document="doc" />
+    </article>
+    <div class="container flex justify-between">
+      <span v-if="prev" class="text-teal-500 hover:underline">
+        &lt; <nuxt-link :to="prev.slug">{{ prev.title }}</nuxt-link>
+      </span>
+      <span v-else></span>
+
+      <span v-if="next" class="text-teal-500 hover:underline">
+        <nuxt-link :to="next.slug">{{ next.title }}</nuxt-link> &gt;
+      </span>
+      <span v-else></span>
+    </div>
   </div>
 </template>
 

@@ -1,9 +1,14 @@
 <template>
-  <div class='bg-gray-200'>
+  <div class="flex flex-col min-h-screen bg-gray-100">
     <Navigation />
-    <div class='container p-4 mx-auto'>
+    <main class="container flex-grow p-6 mx-auto">
       <Nuxt />
-    </div>
+    </main>
+    <footer
+      class="px-6 py-2 text-gray-800 bg-white border-t-2 border-gray-300 border-solid"
+    >
+      Copyright 2020
+    </footer>
   </div>
 </template>
 

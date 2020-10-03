@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container prose">
     <h1>This is Page 02</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consequuntur
