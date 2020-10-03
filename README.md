@@ -1,5 +1,7 @@
 # Website Starter
 
+> This is an ongoing work-in-progress project for my learning and definitely not fit for production use.
+
 A website starter project, based on the following:
 
 - Programming language: TypeScript
